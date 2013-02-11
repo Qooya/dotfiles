@@ -1,0 +1,191 @@
+# doctype snippet
+snippet doctype
+abbr doctype
+  <!doctype html> 
+  <html>
+    ${1}
+  </html>
+
+# head snippet
+snippet head
+abbr head
+  <head lang="ja">
+    ${1}
+  </head>
+
+# body snippet
+snippet body
+abbr body
+  <body>
+    ${1}
+  </body>
+
+# meta charset snippet
+snippet metaCharset
+abbr meta charset
+  <meta charset="${1:utf-8}">
+
+# meta keywords snippet
+snippet metaKeywords
+abbr meta keywords
+  <meta name="keywords" content="${1}">
+
+# meta description snippet
+snippet metaDescription
+abbr meta description
+  <meta name="description" content="${1}">
+
+# meta viewport snippet
+snippet metaViewport
+abbr meta viewport
+  <meta name="viewport" content="${1}">
+
+# meta http-equiv="content-language"  
+snippet metaHttp-equiv
+abbr meta http-equiv="content-language"
+  <meta http-equiv="content-language" content="${1:ja}">
+
+# link stylesheet snippet
+snippet link
+abbr link rel="stylesheet"
+  <link rel="stylesheet" href="${1}.css">
+
+snippet style
+abbr style
+  <style>
+    ${1}
+  </style>
+
+# script snippet
+snippet script
+abbr script
+  <script src="${1}.js"></script>
+
+# navigation snippet
+snippet nav
+abbr nav
+  <nav>
+    ${1}
+  </nav>
+
+# section snippet
+snippet section
+abbr section
+  <section>
+    ${1}
+  </section>
+
+# article snippet
+snippet article
+abbr article
+  <article>
+    ${1}
+  </article>
+
+# header snippet
+snippet header
+abbr header
+  <header>
+    ${1}
+  </header>
+
+# footer snippet
+snippet footer
+abbr footer
+  <footer>
+    ${1}
+  </footer>
+
+# aside snippet
+snippet aside
+abbr aside
+  <aside>
+    ${1}
+  </aside>
+
+# div snippet
+snippet div
+abbr div
+  <div class="${1}">
+    ${2}
+  </div>
+
+# span snippet
+snippet span
+abbr span
+  <span class="${1}">
+    ${2}
+  </span>
+
+# a(hyperlink) snippet
+snippet a
+abbr a href=""
+  <a href="${1}">${2}</a>
+
+# p(paragraph) snippet
+snippet p
+abbr p
+  <p>${1}</p>
+
+# figure snippet
+snippet figure
+abbr figure img
+  <figure>
+  <img src="${1}">
+  <figcaption>${2}</figcaption>
+  </figure>
+
+# ul(list) snippet
+snippet ul
+abbr ul
+  <ul> 
+    ${1}
+  </ul>
+
+# li(list item) snippet
+snippet li
+abbr li
+  <li>
+    ${1}
+  </li>
+
+# form snippet
+snippet form
+abbr form
+  <form>
+    ${1}
+  </form>
+
+# input text snippet
+snippet inputText
+abbr input text
+  <input type="text" placeholder="${1}">
+
+# input password snippet
+snippet inputPassword
+abbr input password
+  <input type="password" placeholder="${1}">
+
+# input checkbox snippet
+snippet inputCheckbox
+abbr input checkbox
+  <input type="checkbox">
+
+# label snippet
+snippet label
+abbr label
+  <label>
+    ${1}
+  </label>
+
+# button snippet
+snippet button
+abbr button
+  <button type="submit">
+    ${1}
+  </button>
+
+# comment snippet
+snippet comment
+abbr <!-- -->
+  <!-- ${1} -->

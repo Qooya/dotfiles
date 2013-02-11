@@ -1,0 +1,83 @@
+# if snippet
+snippet if
+abbr if end
+  if ${1:condition}
+    ${2}
+  end
+
+# if else snippet
+snippet ifel
+abbr if else end
+  if ${1:condition}
+    ${2}
+  else
+    ${3}
+  end
+
+# unless snippet
+snippet unless
+abbr unless end
+  unless ${1:condition}
+    ${2}
+  end
+
+# unless else snippet
+snippet unlessel
+abbr unless else end
+  unless ${1:condition}
+    ${2}
+  else
+    ${3}
+  end
+
+# while snippet
+snippet while
+abbr while
+  while ${1:condition}
+    ${2}
+  end
+
+# untill snippet
+snippet until
+abbr until
+  until ${1:condition}
+    ${2}
+  end
+
+# for snippet
+snippet for
+abbr for
+  for ${1} in ${2}
+    ${3}
+  end
+
+# class snippet
+snippet class
+abbr class
+  class ${1:name} < ${2:super}
+    ${3}
+  end
+
+# module snippet
+snippet module
+abbr module
+  module ${1:name}
+    ${2}
+  end
+
+# function snippet
+snippet def
+abbr function
+  def ${1:name}
+    ${2}
+  end
+
+# require snippet
+snippet req
+abbr require
+  require '${1}'
+
+# magic coment snippet
+snippet coding
+abbr coding
+  # -*- coding: ${1:utf-8} -*-
